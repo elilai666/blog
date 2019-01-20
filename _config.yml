@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://elilai666.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -81,3 +81,9 @@ deploy:
   type: git
   repo: git@github.com:elilai666/elilai666.github.io.git
   branch: master
+
+algolia:
+  applicationID: 'XSA67E08OU'
+  apiKey: 02d8537595290963fd6a24d8db169128
+  indexName: 'blog'
+  chunkSize: 5000
